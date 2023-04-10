@@ -1,0 +1,19 @@
+Docker Advantages
+- Packages everything 
+- If it runs on dev machine can run on any other machine with docker
+
+When dockerized 
+- Packs all dependecies
+- Packs all enviroment varibles
+- Cut-down OS included
+- A runtime enviroment included
+- Application files included
+
+Container : Isolated enviroment for running apps
+
+How are containers different from virtual machines?
+VM are physical machine.  Like mac use hypervisor for creating different vms.VM is resource intensive. Containers also give isolatation but less resource intensive and can run on any host . Starts quickly.
+
+Docker Architecture:
+
+Client-Server architechture . Client reaches docker engine using restful API. 

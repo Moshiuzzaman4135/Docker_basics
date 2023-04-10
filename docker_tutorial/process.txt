@@ -1,0 +1,10 @@
+1.Make a directory for the app
+mkdir hello_docker
+2. Build a simple js app   
+3. Make a Dockerfile in the installed directory and write the process
+    which enviroment to use
+    what to copy 
+    which is the working directory
+    what command to execute to run the app
+4. Dockerize the app from app directory
+    sudo docker build -t hello_docker .
