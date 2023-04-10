@@ -1,2 +1,13 @@
 # Docker_basics
-Basics of docker
+1. To check docker version
+docker version
+
+2. To see all the images in the computer
+sudo docker image ls
+
+3. To run the image
+sudo docker run hello_docker
+
+4. Pull from docker-hub
+docker pull repo/name
+'sudo docker pull codewithmosh/hello-docker'
